@@ -1,2 +1,4 @@
-com/uff/iceventos/model/GerenciaUsuario.class
+com/uff/iceventos/model/Evento.class
 com/uff/iceventos/model/Usuario.class
+com/uff/iceventos/model/GerenciaEvento.class
+com/uff/iceventos/model/GerenciaUsuario.class

@@ -24,7 +24,6 @@ public class GerenciaUsuario implements Serializable{
      */
     public GerenciaUsuario() {
     }
-    private String nome, email, senha;
     List<Usuario> usuariosCadastrados = new ArrayList<>();
     static Usuario usuario_corrente;
     
