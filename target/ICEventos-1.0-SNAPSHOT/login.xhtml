@@ -6,13 +6,13 @@
         <title>Facelet Title</title>
     </h:head>
     <h:body>
-        Bem-vindo ao IC Eventos!
-        <br />
-        <h:link value="Faça seu cadastro!" outcome="cadastro"/>
-        <br />
-        <h:link value="Login" outcome="login"/>
-        <br />
-        <h:link outcome="welcomePrimefaces" value="Página de boas-vindas do Primefaces" />
+        <h:form>
+            Usuario(email):<h:inputText value="#{usuario.email}" />            
+            <br />
+            Senha:<h:inputSecret value="#{usuario.senha}"/>
+            <br />
+            <h:commandButton value="Cadastrar" action="#{gerenciaUsuario.validarLogin(usuario)}"/>
+        </h:form>
     </h:body>
 </html>
 

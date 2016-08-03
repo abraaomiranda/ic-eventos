@@ -6,13 +6,13 @@
         <title>Facelet Title</title>
     </h:head>
     <h:body>
-        Bem-vindo ao IC Eventos!
+        <h:messages style="color:red">
+            <p>Email não encontrado.</p>
+        </h:messages>
+        
         <br />
-        <h:link value="Faça seu cadastro!" outcome="cadastro"/>
-        <br />
-        <h:link value="Login" outcome="login"/>
-        <br />
-        <h:link outcome="welcomePrimefaces" value="Página de boas-vindas do Primefaces" />
+        
+        <h:link outcome="login" value="Voltar" />
     </h:body>
 </html>
 
